@@ -1,0 +1,48 @@
+.global{
+    margin-top: 102px;
+    min-height: 590px;
+    background: url('../../img/global.jpg') center (center/cover) no-repeat;
+    &__title{
+        padding-top: 94px;
+        font-family: Lato;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 60px;
+        line-height: 123.7%;
+        color: #FFFFFF;
+    }
+    &__divider{
+        margin-top: 14px;
+        width: 499px;
+        height: 8px;
+        background: linear-gradient(90deg, #55287D 0%, #CD2288 100%);
+    }
+    &__wrapper{
+        margin-top: 55px;
+        display: flex;
+    }
+    &__card{
+        margin-right: 130px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    &__subtitle{
+        margin-top: 30px;
+        font-family: Lato;
+        font-weight: bold;
+        font-size: 60px;
+        line-height: 123.7%;
+        color: #FFFFFF;
+
+    }
+    &__text{
+        margin-top: 30px;
+        font-family: Lato;
+        font-weight: normal;
+        font-size: 28px;
+        line-height: 123.7%;
+        color: #FFFFFF;
+    }
+}

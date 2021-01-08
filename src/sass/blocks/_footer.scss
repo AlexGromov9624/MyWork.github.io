@@ -1,0 +1,116 @@
+.footer{
+    margin-top: 51px;
+    background: #55287D;
+    min-height: 411px;
+    &__wrapper{
+        padding-top: 100px;
+        display: flex;
+    }
+    &__info{
+        margin-right: 276px;
+    }
+    &__country{
+        position: relative;
+        margin: 40px 0 0 40px;
+        font-weight: 300;
+        font-size: 19px;
+        line-height: 155.7%;
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
+        color: rgba(255, 255, 255, 0.5);
+        &:after{
+            content: '';
+            position: absolute;
+            background: url('../../icons/country.svg') center (center/cover) no-repeat;
+            height: 25px;
+            width: 19px;
+            right: 423px;
+            top: 5px;
+            border-radius: 0px;
+        }
+    }
+    &__contact{
+        position: relative;
+        margin: 16px 0 0 40px;
+        font-weight: 200;
+        font-size: 19px;
+        line-height: 155.7%;
+        letter-spacing: 0.025em;
+        text-transform: capitalize;
+        color: rgba(255, 255, 255, 0.5);
+        
+        &:after{
+            content: '';
+            position: absolute;
+            background: url('../../icons/phone.svg') center (center/cover) no-repeat;
+            height: 25px;
+            width: 19px;
+            right: 423px;
+            top: 5px;
+            border-radius: 0px;
+        }
+
+    }
+    &__email{
+        margin-left: 127px;
+        input{
+            height: 56px;
+            width: 338px;
+            border-radius: 0px;
+            opacity: 0.08;
+            text-align: left;
+            padding-left: 30px;
+
+        }
+        button{
+            position: relative;
+            opacity: 0.7;
+            background: #55287D;
+            margin-bottom: 37px;
+            img{
+                position: absolute;
+                bottom: -3px;
+                right: 20px;
+            }
+          
+        }
+    }
+    &__item{
+        list-style-type: none;
+        margin-bottom: 18px;
+        a{ 
+            font-weight: 300;
+            font-size: 22px;
+            line-height: 123.7%;
+            text-transform: capitalize;
+            color: #FFFFFF;
+            opacity: 0.7;
+            text-decoration: none;
+        }
+        
+    }
+    &__title{
+        color: #fff;
+        font-family: Lato;
+        font-weight: normal;
+        font-size: 32px;
+        line-height: 123.7%;
+        color: #FFFFFF;
+
+    }
+    &__social{
+        display: flex;
+    }
+    &__icon_wr{
+        margin-right: 16px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 46px;
+        width: 46px;
+        background-color: #833DC1;
+        border-radius: 100%;
+    }
+       
+    
+}

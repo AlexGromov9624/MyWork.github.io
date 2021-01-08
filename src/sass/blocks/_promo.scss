@@ -1,0 +1,120 @@
+.swiper-slide{
+    min-height: 830px;
+    position: relative;
+    &_Justin{
+        background: url('../../img/justin.jpg') center (center/cover) no-repeat;
+    }
+    &_Headie{
+        background: url('../../img/Headie.jpg') center (20%/cover) no-repeat;
+    }
+    &_Tiwa{
+        background: url('../../img/Tiwa.jpg') center (20%/cover) no-repeat;
+
+    }
+    &_Drake{
+        background: url('../../img/Drake.jpg') center (0/cover) no-repeat;
+    }
+    &_Ella{
+        background: url('../../img/Ella.jpg') center (center/cover) no-repeat;
+    }
+    
+    &__cont{
+        position: relative;
+    }
+}
+.content__wrapper{
+    max-width: 1900px;
+    margin: 0 auto;
+}
+.promo{
+    &__pop{
+        margin-top: 84px;
+        font-weight: bold;
+        font-size: 40px;
+        color: #FFFFFF;
+        opacity: 0.7;
+    }
+    &__title{
+        margin-top: 50px;
+        max-width: 479px;
+        font-weight: bold;
+        font-size: 105px;
+        line-height: 95.7%;
+        color: #fff;
+    }
+    &__subtitle{
+        margin-top: 21px;
+        max-width: 300px;
+        font-weight: 200;
+        font-size: 53px;
+        line-height: 86.7%;
+        color: #FFFFFF;
+    }
+    &__play{
+        img{
+            display: block;
+            margin-top: 27px;
+        }
+    }
+    &__wrapper-btn{
+        display: flex;
+        align-items: center;
+        margin-top: 47px;
+    }
+    &__btn{
+        width: 256px;
+        height: 82px;
+        background: #FFFFFF;
+        border-radius: 5px;
+    }
+    &__sign{
+        margin-left: 52px;
+        a{
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 30px;
+            color: #fff;
+            text-decoration: none;
+        }
+    }
+    &__divider{
+        width: 142px;
+        height: 3px;
+        margin-left: 24px;
+        left: 590px;
+        top: 763px;
+        background: #FFFFFF;
+    }
+}
+.swiper-buttonP{
+    position: absolute;
+    width: 64px;
+    height: 10px;
+    top: 0;
+    left: 0;
+    background: url('../../icons/ArrowL.svg') center (center/cover) no-repeat;
+}
+.swiper-button-prev {
+    background-image: url("../../icons/ArrowL.svg");
+    position: absolute;
+    top: auto;
+    bottom: 30px;
+    left: 295px;
+    width: 64px;
+    height: 30px;
+    &:after{
+        content: '';
+    }
+  }
+  .swiper-button-next {
+    background-image: url("../../icons/ArrowR.svg");
+    position: absolute;
+    top: auto;
+    bottom: 30px;
+    left: 375px;
+    width: 64px;
+    height: 30px;
+    &:after{
+        content: '';
+    }
+  }

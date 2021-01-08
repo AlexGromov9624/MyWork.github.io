@@ -1,0 +1,103 @@
+.plaer{
+    padding-top: 89px;
+    &__wrapper{
+        display: flex;
+        justify-content: space-between;
+    }
+    // &__box_wr{
+    //     display: flex;
+    // }
+    &__box{
+        max-width: 130px;
+        display: flex;
+        flex-direction: column;
+        &_2{
+            margin-bottom: 45px;
+        }
+    }
+    &__arrow{
+        img{
+            margin-top: 10px;
+        }
+    }
+    &__item{
+        position: relative;
+        font-family: Lato, sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 40px;
+        line-height: 123.7%;
+        color: #55287D;
+        &-after{
+            &::before{
+                content: '';
+            position: absolute;
+            width: 28.84px;
+            height: 0px;        
+            left: -7.04px;
+             top: -20.87px;
+            border: 1px solid #55287D;
+            border-top: none;
+            transform: matrix(-0.55, -0.83, -0.83, 0.55, 0, 0);
+            }
+            &::after{
+                content: '';
+            position: absolute;
+            width: 28.84px;
+            height: 0px;
+            top: -2px;
+            left: -28px;
+            border: 1px solid #55287D;
+            border-top: none;
+            transform: matrix(-0.93, -0.36, -0.36, 0.93, 0, 0);
+            }
+        }
+    }
+    &__elem{
+        position: relative;
+        &:after{
+            content: '';
+            position: absolute;
+            width: 28.84px;
+            height: 0px;
+            left: 29px;
+            top: -22px;
+            border: 1px solid #55287D;
+            border-top: none;
+            transform: rotate(-56.31deg);
+
+        }
+        &:before{
+            content: '';
+            position: absolute;
+            width: 28.84px;
+            height: 0px;
+            left: 46px;
+            top: -3px;
+            border: 1px solid #55287D;
+            border-top: none;
+            transform: rotate(-20.84deg);
+
+        }
+    }
+    &__btn{
+        margin-top: 28px;
+        display: flex;
+        justify-content: space-between;
+        outline: none;
+        img{
+            outline: none;
+        }
+        &:focus{
+            border: none;
+            outline: none;
+        }
+    }
+    &__btn_item{
+        background-color: #fff;
+        border: none;
+        margin-top: 20px;
+    }
+    
+    
+}

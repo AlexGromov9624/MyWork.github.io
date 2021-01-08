@@ -1,0 +1,10 @@
+.portal{
+    padding-top: 52px;
+    &__wrapper{
+        display: flex;
+        justify-content: space-between;
+    }
+    &__link{
+        margin-right: 44px;
+    }
+}

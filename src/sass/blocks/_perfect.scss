@@ -1,0 +1,31 @@
+.perfect{
+    padding-top: 65px;
+    &__title{
+        display: block;
+        max-width: 700px;
+        font-weight: bold;
+        font-size: 50px;
+        line-height: 123.7%;
+        color: #55287D;
+        margin: 0 auto;
+        text-align: center;
+    }
+    &__divider{
+        width: 343px;
+        height: 8px;
+        margin-top: 10px;
+        background: linear-gradient(90deg, #55287D 0%, #CD2288 100%);
+        margin: 0 auto;
+    }
+    &__wrapper{
+        margin-top: 77px;
+        display: flex;
+    }
+    &__card{
+        width: 230px;
+        margin-right: 98px;
+    }
+    &__descr{
+        margin-top: 25px;
+    }
+}

@@ -1,0 +1,74 @@
+.header{
+    &__wrapper{
+        padding: 26px 0 34px 0;
+        display: flex;
+        justify-content: space-between;
+    }
+    .menu__wrapper{
+        display: flex;
+    }
+    &__logo{
+        margin-right: 44px;
+    }
+    &__menu{
+        position: relative;
+    }
+    &__list{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 11px;
+        a{
+            color: #55287D;
+            text-decoration: none;
+        }
+    }
+    &__item{
+        margin-top: 3px;
+        margin-right: 38px;
+        list-style-type: none;
+        a{
+            font-family: TeX Gyre Heros, sans-serif;
+            font-weight: 400;
+            font-size: 20px;
+            text-decoration: none;
+        }
+    }
+    &__user{
+        display: flex;
+        align-items: center;
+        a{
+            font-family: TeX Gyre Heros, sans-serif;
+            font-weight: 400;
+            font-size: 20px;
+            color: #55287D;
+            text-decoration: none;
+            margin-right: 5px;
+        }
+        &_img{
+            svg{
+                position: relative;
+                width: 30px;
+                height: 30px; 
+            }
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 36px;
+            height: 34px;
+            border: 2px solid #55287D;
+            border-radius: 50%;
+        }
+    }
+    .burger{
+        display: none;
+        cursor: pointer;
+    }
+    .line{
+        width: 25px;
+        height: 3px;
+        margin: 5px;
+        background-color: #000;
+        transition: all .4s ease;
+    }
+  
+}
